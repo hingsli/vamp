@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel", "torch"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "query-adaptive-quantization-ext"
+version = "0.0.0"
+description = "CUDA extensions for Query-Adaptive Quantization LLM"
+requires-python = ">=3.8"
+dependencies = ["torch"] 

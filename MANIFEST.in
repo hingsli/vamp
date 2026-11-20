@@ -1,0 +1,8 @@
+include LICENSE README.md THIRD_PARTY_NOTICES.md
+recursive-include licenses *
+recursive-include examples *.jsonl *.sh
+recursive-include docs *.md *.json
+recursive-include tests *.py
+include quantize.py
+include requirements-dev.lock requirements-cuda.lock
+recursive-include query_adaptive_quantization/modules/kernels *.cu *.cuh *.toml setup.py
